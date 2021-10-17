@@ -1,0 +1,111 @@
+html, body {
+	font-family: 'IBM Plex Serif', serif;
+	margin: 0;
+	line-height: 1.5;
+}
+
+
+
+header {
+	color: black;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+
+.main-header {
+	padding-top: 10px;
+	text-align: center;
+}
+
+
+#navbar {
+	position: fixed;
+	height: 100%;	
+	min-width: 270px;
+	width: 280px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding: 0;
+	border-right: 1px solid black;
+}
+
+.nav-li:hover {
+	background-color: #c5e8cf;
+}
+
+
+#navbar ul {
+	padding: 0;
+}
+
+
+#navbar li{
+	list-style: none;
+	padding: 10px;
+	border-top: 1px solid black;
+}
+
+#navbar a {
+	display: block;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #000;
+}
+
+
+.main-doc {
+	position: absolute;
+	margin-left: 290px;
+}
+
+
+.main-section {
+	margin top: 30px;
+	margin-bottom: 30px;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-left: 30px;
+	text-align: justify;
+}
+
+
+code {
+	display: block;
+	padding: 10px;
+	background-color: #f7f7f7;
+}
+
+
+@media (max-width: 740px) {
+	#navbar {
+		position: absolute;
+		top: 0;
+    	padding: 0;
+    	margin: 0;
+    	width: 100%;
+   	 	max-height: 275px;
+   	 	border: none;
+   		z-index: 1;
+    	border-bottom: 1px solid;
+
+	}
+}
+
+
+@media (max-width: 740px) {
+	.main-doc {
+		position: relative;
+    	margin-left: 0px;
+   		margin-top: 280px;	
+	}
+}
+
+
+
+

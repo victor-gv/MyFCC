@@ -1,0 +1,77 @@
+
+* {
+	font-family: segoe-ui, sans-serif;
+}
+
+
+h1, #subtitle {
+	text-align: center;
+	margin:  auto;
+	background-color: #eeeeee;
+	padding: 10px;
+}
+
+
+
+#img {
+	max-width: 100%;
+  	height: auto;
+  	object-position: center;
+  	display: block;
+  	margin: auto;
+}
+
+
+#img-caption {
+	text-align:  center;
+	margin:  auto;
+	padding:  10px;
+}
+
+
+h3 {
+	padding-top: 50px;
+	padding-bottom: 30px;
+	text-align: center;
+	display: block;
+}
+
+
+
+#tribute-info {
+	background-color: #eeeeee;
+	text-align: justify;
+	margin: 0;
+}
+
+
+#tribute-info ul { 
+	max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    
+}
+
+
+#tribute-info li {
+	line-height: 30px;
+	padding-bottom: 15px;
+}
+
+.bottom, .bottom-firma{
+	max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+h4 {
+	text-align: center;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	font-size: 20px;
+}
+
+
+

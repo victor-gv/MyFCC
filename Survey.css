@@ -1,0 +1,70 @@
+
+html, body {
+    height:100vh;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+
+
+body {
+    background-image: linear-gradient(
+      rgba(119, 143, 222, 0.3), 
+      rgba(119, 143, 222, 0.3)
+    ),
+    url(background-img.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    text-align: center;
+    color: #f3f3f3;
+   
+
+}
+
+.container{
+    position: relative;
+	background: #1b1b32;
+    opacity: 0.8;
+	max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 30px;
+    font-size: .85rem;
+    
+}
+
+
+.item {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+
+
+input {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 3px;
+}
+
+
+#long-item, #name, #email, #number {
+    min-width:  100%;
+    padding: 4px;
+}
+
+
+
+.submit {
+    background-color: #37af65;
+    color: #f3f3f3;
+}
+
+
+
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="Survey.css"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="icon" href="background-img.jpg">
+	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+	<title>OAM: Survey Form</title>
+</head>
+
+<body>
+
+	<h1 id="title" >OAM | Architecture Office in Mallorca</h1>
+
+		<p id="description" >
+			<i>Thank you for taking the time to help us improve our service</i>
+		</p>
+
+
+	<div class="container">
+			<form id="survey-form">
+
+			<div class="item">
+				<label id="name-label" for="name">Name</label><br>
+				<input type="text" id="name" name="name" placeholder="Enter your name">		
+			</div>	
+
+			<div class="item">
+				<label id="name-label" for="name">Email</label><br>
+				<input type="Email" id="email" name="email" placeholder="Enter your Email">		
+			</div>	
+
+			<div class="item">
+				<label id="number-label" for="name">Age (optional)</label><br>
+				<input id="number" type="Number" name="Age" placeholder="Age" min="1" max="100">		
+			</div>	
+
+			<div class="item">
+				<label id="dropdown" for="name">How did you get to us?</label><br>
+				<select name="role" id="long-item">
+					<option disabled selected>Select one option</option>
+					<option>Web Page</option>
+					<option>Instagram</option>
+					<option>Recommendation</option>
+					<option>By chance</option>
+					<option>Other</option>
+				</select>
+			</div>
+
+
+			<div class="item">
+				<label for="name">Would you recommend OAM to a friend?</label><br>
+					<input  type="Radio" name="recommend" >Definitely<br>
+					<input  type="Radio" name="recommend" >Maybe<br>
+					<input  type="Radio" name="recommend" >Not sure<br>
+			</div>	
+
+
+			<div class="item">
+				<label  for="name">What is your favorite feature of our service?</label><br>
+
+				<select name="feature" id="long-item">
+					<option disabled selected>Select an option</option>
+					<option>Free budget proposal</option>
+					<option>Generation of images and visualization with virtual reality</option>
+					<option>1 year warranty</option>
+					<option>Ease of payment, we help you with financing</option>
+				</select>
+			</div>
+
+
+			<div class="item">
+				<label for="name">What would you like to see improved? (Check all that apply)</label><br>
+
+					<input  type="checkbox" name="improve" value="Service">Quality service<br>
+					<input  type="checkbox" name="improve" value="Timmings">Timmings<br>
+					<input  type="checkbox" name="improve" value="Budget">Budget<br>
+					<input  type="checkbox" name="improve" value="Variety of options">Variety of options<br>
+					<input  type="checkbox" name="improve" value="Warranty service">Warranty service<br>
+					<input  type="checkbox" name="improve" value="Other ptions">Other options (write it down below)<br>
+			</div>
+
+
+			<div class="item">
+				<label  for="name">Any comments or suggestions?</label><br>
+				<textarea id="long-item" name="comments" placeholder="Enter your comment here..."></textarea>	
+			</div>	
+
+
+			<div class="item">
+				<label for="submit"></label>
+					<input id="long-item" class="submit" type="submit" name="submit" value="Submit">
+			</div>
+
+
+			</form>
+	</div>
+
+
+</body>
+</html>
